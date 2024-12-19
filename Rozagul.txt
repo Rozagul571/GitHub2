@@ -1,0 +1,2 @@
+Todo:
+    Learning Aiogram telegram bot

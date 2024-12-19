@@ -1,0 +1,19 @@
+1. Botni Yaratish
+    Botni yaratish: @BotFather orqali botni yaratib, TOKEN olish va uni kodga ulash.
+    Start komandasi: Foydalanuvchiga "Xush kelibsiz!" deb yozuvchi /start komandasi qo'shish.
+    Help komandasi: Botning asosiy funksiyalarini tushuntiruvchi /help komandasi yaratish.
+2. Inline Buttonlar Qo'shish
+    Asosiy menyu: Foydalanuvchi uchun bir nechta inline buttonlardan tashkil topgan asosiy menyu yaratish (masalan, "Profil", "Statistika", "Sozlamalar").
+    Buttonlar bilan xabar yuborish: Har bir button bosilganda foydalanuvchiga tegishli xabar yuborilsin (masalan, "Profil" bosilganda foydalanuvchining ma'lumoti chiqarilsin).
+3. Foydalanuvchidan Ma'lumot So'rash
+    Ismni so'rash: Foydalanuvchidan ismni so'rash va uni saqlash.
+    Emailni so'rash: Foydalanuvchidan email so'rash va uni tekshirish (validatsiya qilish).
+4. Oddiy Statistika
+    Foydalanuvchilar soni: Botga admin sifatida qo'shilgan foydalanuvchi /statistika komandasini yuborsa, bot jami foydalanuvchilar sonini chiqarib bersin.
+5. Foydalanuvchi Xabarlari
+    Qidiruv: Foydalanuvchidan ma'lum bir so'z yoki ID bo'yicha qidiruv so'rash.
+    Inline qidiruv: Foydalanuvchi bot orqali qidiruv so'rovi yuborsa, bot javobni inline ravishda ko'rsatsin.
+6. Notifikatsiyalar
+    Eslatm a xabarlari: Foydalanuvchiga har kuni yoki haftada bir marta eslatma yuborish (masalan, "Bugungi yangiliklar" kabi).
+7. Buttonlar orqali Foydalanuvchi bilan Aloqa
+    Buttonni bosib, xabar yuborish: Foydalanuvchi inline buttonni bosganda, bot avtomatik ravishda uni javob bilan yuborsin (masalan, "Salom! Sizni kutib qolaman!").

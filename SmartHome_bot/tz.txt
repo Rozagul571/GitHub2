@@ -1,0 +1,139 @@
+Smart Home Telegram Bot texnik topshiriq
+1. Bot maqsadi va vazifasi
+Telegram bot orqali uyni masofadan monitoring qilish va boshqarish imkoniyatini taqdim etish
+
+2. Asosiy funksionallik
+
+2.1. Autentifikatsiya
+        Botga start berish
+        Telefon raqam orqali ro'yxatdan o'tish
+        Admin tomonidan tasdiqlash
+        PIN-kod o'rnatish
+
+2.2. Uy qurilmalarini boshqarish
+        Qurilmalar ro'yxatini ko'rish
+        Qurilmalarni yoqish/o'chirish
+        Qurilmalar holatini tekshirish
+        Guruh bo'yicha boshqarish
+        Rejimlarni o'zgartirish
+
+2.3. Xavfsizlik kameralari
+        Kameralar ro'yxati
+        Joriy tasvirni ko'rish
+        Video arxivni ko'rish
+        Harakat detektori xabarlari
+        Kamera sozlamalari
+
+2.4. Elektr sarfini nazorat
+        Joriy sarf ko'rsatkichlari
+        Kunlik statistika
+        Haftalik hisobot
+        Oylik hisobot
+        Qurilmalar bo'yicha tahlil
+
+2.5. Aqlli rozetkalar
+        Rozetkalar ro'yxati
+        Holatni o'zgartirish
+        Vaqt bo'yicha rejalashtirish
+        Energiya sarfi statistikasi
+        Xavfsizlik sozlamalari
+
+2.6. Temperatura boshqaruvi
+        Xonalar bo'yicha harorat
+        Haroratni o'zgartirish
+        Rejimlarni sozlash
+        Avtomatik boshqaruv
+        Namlik ko'rsatkichlari
+
+                                        3. Bot interfeysi
+
+                                        3.1. Asosiy menyu
+                                            Qurilmalar
+                                            Xavfsizlik
+                                            Elektr sarfi
+                                            Rozetkalar
+                                            Temperatura
+                                            Sozlamalar
+
+                                        3.2. Tugmalar
+                                            Inline keyboard
+                                            Custom keyboard
+                                            Back/Home tugmalari
+                                            Tezkor buyruqlar
+
+                                        3.3. Xabarlar
+                                            Matn xabarlar
+                                            Rasmlar
+                                            Video
+                                            Hujjatlar
+                                            Grafiklar
+
+4. Texnik talablar
+4.1. Backend
+    Python (aiogram/python-telegram-bot)
+    PostgreSQL
+    Redis (kesh)
+    RESTful API
+    WebSocket
+
+4.2. Integratsiyalar
+    Telegram Bot API
+    Smart Home API
+    IoT qurilmalar API
+    Monitoring servis
+    Notification servis
+4.3. Xavfsizlik
+    JWT tokens
+    Rate limiting
+    IP filtering
+    Log yozish
+    Xavfsizlik auditi
+                                            5. Bot kommandalari
+                                            5.1. Asosiy komandalar
+                                                    /start - Botni ishga tushirish
+                                                    /help - Yordam
+                                                    /menu - Asosiy menyu
+                                                    /status - Umumiy holat
+                                                    /devices - Qurilmalar
+                                            5.2. Boshqaruv kommandalari
+                                                    /on_{device_id} - Qurilmani yoqish
+                                                    /off_{device_id} - Qurilmani o'chirish
+                                                    /temp_{room_id} - Xona harorati
+                                                    /power_{socket_id} - Rozetka holati
+                                                    /cam_{camera_id} - Kamera tasviri
+                                            5.3. Hisobot kommandalari
+                                                    /daily - Kunlik hisobot
+                                                    /weekly - Haftalik hisobot
+                                                    /monthly - Oylik hisobot
+                                                    /stats - Statistika
+                                                    /alerts - Xabarlar
+6. Ishlab chiqish bosqichlari
+6.1. Tayyorgarlik (1 hafta)
+    Texnik topshiriqni tasdiqlash
+    Development muhitini sozlash
+    API ulash
+    DB strukturasini yaratish
+
+6.2. Asosiy ishlab chiqish (2 hafta)
+    Bot frameworkni o'rnatish
+    Asosiy komandalarni yaratish
+    DB bilan ishlash
+    API integratsiya
+
+6.3. Testing (1 hafta)
+    Funksional testing
+    Xavfsizlik tekshiruvi
+    Load testing
+    Bug fixing
+
+6.4. Ishga tushirish (3 kun)
+    Production serverga o'rnatish
+    Monitoring sozlash
+    Foydalanuvchi qo'llanmasini yaratish
+    Admin training
+    
+7. Texnik yordam
+    Xatolarni tuzatish
+    Yangilanishlar
+    Foydalanuvchilar savollari
+    Monitoring

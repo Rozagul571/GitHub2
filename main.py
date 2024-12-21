@@ -117,6 +117,8 @@ async def send_youtube_video(context: ContextTypes.DEFAULT_TYPE, chat_id: int, f
     except Exception as e:
         await context.bot.send_message(chat_id=chat_id, text=f"Xatolik yuz berdi: {e}")
 
+async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text("Bu bot You Tube tarmogidan linklarni qabul qiladi ba sizga `mp3` yoki `mp4` formatda qaytaradi. Formatni tanlash uchun /start komandasini bosing")
 
 def main() -> None:
     application = Application.builder().token(TOKEN).build()
@@ -124,6 +126,7 @@ def main() -> None:
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, download_video))
     application.add_handler(CallbackQueryHandler(handle_callback))
+    application.add_handler(CommandHandler("help", help))
 
     application.run_polling()
 
